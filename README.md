@@ -23,9 +23,6 @@ A aplicação que irá escrever deverá executar em um terminal, inclusive a sa�
 Além do código da aplicação, a documentação de como executar a mesma também é um requisito. Você pode fazer a mesma sobrescrevendo no **README.md** do seu projeto e parta do princípio que eu tenho o PHP e um banco de dados instalado, mas que esse banco de dados não tem nenhuma tabela, além de ter um usuário e senha próprios, ou seja, é interessante você indicar como configurar os dados de acesso do banco de dados na sua aplicação.
 
 
-Pretendo testar sua aplicação utilizando Docker, mas você não precisa entregar Dockerfile ou docker-compose.yml com o seu projeto. Caso entregue, claro, utilizarei o arquivo, mas o mesmo não será considerado como critério de avaliação.
-
-
 ## O que será avaliado e por quê?
 
 
