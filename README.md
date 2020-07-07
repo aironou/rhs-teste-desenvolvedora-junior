@@ -20,19 +20,19 @@ Para esse teste, espero que você utilize:
 A aplicação que irá escrever deverá executar em um terminal, inclusive a saída, sem a necessidade de uma versão web e, também, não é necessário escrever testes unitários, mas esses, caso sejam escritos, serão levados em conta na avaliação.
 
 
-Além do código da aplicação, a documentação de como executar a mesma também é um requisito. Você pode fazer a mesma sobrescrevendo no **README.md** do seu projeto e parta do princípio que eu tenho o PHP e um banco de dados instalado, mas que esse banco de dados não tem nenhuma tabela, além de ter um usuário e senha próprios, ou seja, é interessante você indicar como configurar os dados de acesso do banco de dados na sua aplicação.
+Além do código da aplicação, a documentação de como executar a mesma também é um requisito. Você pode fazer a documentação no **README.md** do seu projeto e é necessário indicar como executar sua aplicação, criar as tabelas do banco de dados e configurar a aplicação para se comunicar o banco de dados.
 
 
-## O que será avaliado e por quê?
+## O que será avaliado?
 
 
-1. Padrões, nesse caso, PSR. Porque padrões encurtam uma série de discussões e facilita a leitura do código para várias pessoas.
-1. Nomes para variáveis, funções e classes. Porque nome de variáveis, funções e classes bem escritas são essenciais para um bom entendimento do seu código, mais inclusive, que comentários.
-1. Tratamento de erros. Porque todo código tende a resultar em algum erro, em algum momento, seja por problemas de entrada, seja por lógica, e é importante que o código esteja pronto para lidar com esses erros, sem quebrar a aplicação.
-1. Responsabilidade das funções e classes. Porque uma função e classe que tenha apenas uma única responsabilidade é mais fácil de testar, reaproveitar e entender.
-1. Duplicidade. Porque se um código já atende uma demanda, não há a necessidade de repetir o mesmo.
-1. Modelo e normalização das tabelas do banco de dados. Porque por se tratar de um banco de dados relacionais, é importante que os dados estejam relacionados, mas sem duplicar os dados do banco de dados.
-1. Documentação. Porque uma boa documentação facilita o entendimento da aplicação, desde a execução até sobre o que a mesma faz.
+1. Uso da PSR
+1. Nomes para variáveis, funções e classes objetivos
+1. Tratamento de erros
+1. Responsabilidade única para funções e classes
+1. Duplicidade de código
+1. Modelo e normalização das tabelas do banco de dados
+1. Documentação
 
 
 ## O que você precisa desenvolver?
@@ -44,7 +44,7 @@ Eu gostaria que você escrevesse uma aplicação que permita pesquisar, cadastra
 Abaixo, descreverei alguns cenários que a sua aplicação deverá atender e que usarei como base para testar o funcionamento da mesma.
 
 
-Se possível, crie um repositório para fazer esse teste e, quando concluir o mesmo, me envie o link do seu repositório para eu avaliar. Caso tenha alguma dúvida, sinta-se a vontade para me perguntar.
+Crie um repositório git com o seu código e, assim que terminar, me envie o link do mesmo para eu avaliar. Caso tenha alguma dúvida, sinta-se a vontade para me perguntar.
 
 
 ## Cenários
