@@ -10,14 +10,14 @@ O objetivo deste teste é verificar sua habilidade para escrever sistemas, onde 
 ## Requisitos
 
 
-Para esse teste, espero que você utilize:
+Para esse teste, esperamos que você utilize:
 
 
 1. PHP, se possível, na atual versão estável e, caso prefira, pode usar algum framework que te deixe confortável.
 1. MySQL ou PostgreSQL, como banco relacional.
 
 
-A aplicação que irá escrever deverá executar em um terminal, inclusive a saída, sem a necessidade de uma versão web e, também, não é necessário escrever testes unitários, mas esses, caso sejam escritos, serão levados em conta na avaliação.
+A aplicação que irá escrever deverá funcionar em um terminal, inclusive a saída, sem a necessidade de uma versão web e, também, não é necessário escrever testes unitários, mas esses, caso sejam escritos, serão levados em conta na avaliação.
 
 
 Além do código da aplicação, a documentação de como executar a mesma também é um requisito. Você pode fazer a documentação no **README.md** do seu projeto e é necessário indicar como executar sua aplicação, criar as tabelas do banco de dados e configurar a aplicação para se comunicar o banco de dados.
@@ -27,7 +27,7 @@ Além do código da aplicação, a documentação de como executar a mesma tamb�
 
 
 1. Uso da PSR
-1. Nomes para variáveis, funções e classes objetivos
+1. Nomes objetivos para variáveis, funções e classes
 1. Tratamento de erros
 1. Responsabilidade única para funções e classes
 1. Duplicidade de código
@@ -38,13 +38,13 @@ Além do código da aplicação, a documentação de como executar a mesma tamb�
 ## O que você precisa desenvolver?
 
 
-Eu gostaria que você escrevesse uma aplicação que permita pesquisar, cadastrar e remover filmes e categorias, levando em conta que um filme deve ter uma ou mais categoria, como, por exemplo, ação, aventura, romance, terror e etc.
+Nós gostaríamos que você escrevesse uma aplicação que permita pesquisar, cadastrar e remover filmes e categorias, levando em conta que um filme deve ter uma ou mais categoria, como, por exemplo, ação, aventura, romance, terror e etc.
 
 
-Abaixo, descreverei alguns cenários que a sua aplicação deverá atender e que usarei como base para testar o funcionamento da mesma.
+Abaixo, descreveremos alguns cenários que a sua aplicação deverá atender e que usaremos como base para testar o funcionamento da mesma.
 
 
-Crie um repositório git com o seu código e, assim que terminar, me envie o link do mesmo para eu avaliar. Caso tenha alguma dúvida, sinta-se a vontade para me perguntar.
+Crie um repositório git com o seu código e, assim que terminar, envie o link do mesmo para avaliação. Caso tenha alguma dúvida, sinta-se a vontade para perguntar.
 
 
 ## Cenários
