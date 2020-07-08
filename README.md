@@ -71,24 +71,6 @@ Crie um repositório git com o seu código e, assim que terminar, envie o link d
 * E que essa lista esteja ordenada por ordem alfabética
 
 
-### Pesquisar categoria sem resultados
-
-
-* Dado que eu sou um usuário
-* Quando eu executar o comando para pesquisar categoria
-* E nenhum resultado for encontrado
-* Então espero que seja apresentada uma mensagem indicando que não foram encontrados resultados para a busca
-
-
-### Pesquisar categoria com erro
-
-
-* Dado que sou um usuário
-* Quando eu executar o comando para pesquisar categoria
-* E ocorrer um erro não previsto nessa busca
-* Então espero que seja apresentada uma mensagem indicando o erro ocorrido
-
-
 ### Cadastrar categoria com sucesso
 
 
@@ -98,20 +80,6 @@ Crie um repositório git com o seu código e, assim que terminar, envie o link d
 * Então espero que seja verificado a duplicidade da categoria
 * E que a categoria seja cadastrada no banco de dados
 * E que seja apresentada uma mensagem indicando que a categoria foi cadastrada
-
-
-### Cadastrar categoria com erro
-
-
-* Dado que sou um usuário
-* Quando eu executar o comando para cadastrar categoria
-* E ocorrer um ou mais dos erros abaixo:
-    * Categoria não indicada
-    * Categoria em branco
-    * Erro diverso com o banco de dados
-    * Erro não previsto nesse cadastro
-* Então espero que a categoria não seja cadastrada
-* E que seja apresentada uma mensagem indicando o erro ocorrido ao cadastrar a categoria
 
 
 ### Remover categoria com sucesso
@@ -135,20 +103,6 @@ Crie um repositório git com o seu código e, assim que terminar, envie o link d
 * Então espero que a categoria não seja removida
 * E que seja exibida uma mensagem indicando o erro ocorrido ao remover a categoria
 * E uma lista dos filmes que possuem somente aquela categoria
-
-
-### Remover categoria com erro
-
-
-* Dado que sou um usuário
-* Quando eu executar o comando para remover categoria
-* E ocorrer um ou mais dos erros abaixo:
-    * ID da categoria não indicado
-    * Categoria não encontrada
-    * Erro diverso com o banco de dados
-    * Erro não previsto nessa remoção
-* Então espero a categoria não seja removida
-* E que seja apresentada uma mensagem indicando o erro ocorrido ao remover a categoria
 
 
 ### Pesquisar filme sem critério com resultados
@@ -183,15 +137,6 @@ Crie um repositório git com o seu código e, assim que terminar, envie o link d
 * E espero que essa lista seja esteja ordenada pelo nome do filme e por ordem alfabética
 
 
-### Pesquisar filme sem resultados
-
-
-* Dado que eu sou um usuário
-* Quando eu executar o comando para pesquisar filme
-* E nenhum resultado for encontrado
-* Então espero que seja apresentada uma mensagem indicando que não foram encontrados resultados para a busca
-
-
 ### Cadastrar filme com sucesso
 
 
@@ -205,22 +150,6 @@ Crie um repositório git com o seu código e, assim que terminar, envie o link d
 * E que seja apresentada uma mensagem indicando que o filme foi cadastrado
 
 
-### Cadastrar filme com erro
-
-
-* Dado que sou um usuário
-* Quando eu executar o comando para cadastrar filme
-* E ocorrer um ou mais dos erros abaixo:
-    * Nome do filme não indicado
-    * Nenhum ID de categoria indicado
-    * Nome de filme duplicado
-    * Categoria não encontrada
-    * Erro diverso com o banco de dados
-    * Erro não previsto nesse cadastro
-* Então espero que o filme não seja cadastrado
-* E que seja apresentada uma mensagem indicando o erro ocorrido ao cadastrar o filme
-
-
 ### Remover filme com sucesso
 
 
@@ -230,17 +159,3 @@ Crie um repositório git com o seu código e, assim que terminar, envie o link d
 * Então espero que seja verificada a viabilidade da remoção do filme
 * E que o filme seja removido do banco de dados
 * E que seja apresentada uma mensagem indicando que o filme foi removida
-
-
-### Remover filme com erro
-
-
-* Dado que sou um usuário
-* Quando eu executar o comando para remover filme
-* E ocorrer um ou mais dos erros abaixo:
-    * ID do filme não indicado
-    * Filme não encontrado
-    * Erro diverso com o banco de dados
-    * Erro não previsto nessa remoção
-* Então espero o filme não seja removido
-* E que seja apresentada uma mensagem indicando o erro ocorrido ao remover o filme
