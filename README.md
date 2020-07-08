@@ -20,7 +20,7 @@ Para esse teste, esperamos que você utilize:
 A aplicação que irá escrever deverá funcionar em um terminal, inclusive a saída, sem a necessidade de uma versão web e, também, não é necessário escrever testes unitários, mas esses, caso sejam escritos, serão levados em conta na avaliação.
 
 
-Além do código da aplicação, a documentação de como executar a mesma também é um requisito. Você pode fazer a documentação no **README.md** do seu projeto e é necessário indicar como executar sua aplicação, criar as tabelas do banco de dados e configurar a aplicação para se comunicar o banco de dados.
+Além do código da aplicação, a documentação de como executar a mesma também é um requisito. Você pode fazer a documentação no **README.md** do seu projeto e é necessário indicar como executar sua aplicação, criar as tabelas do banco de dados e configurar a aplicação para se comunicar com o banco de dados.
 
 
 ## O que será avaliado?
